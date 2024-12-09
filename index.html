@@ -34,7 +34,9 @@
 					<section class="spotlight style1 orient-center content-align-center" id="first" style="text-align: center; margin: 0 auto;">
 					    <div class="content">
 					        <h2>Abstract</h2>
-					        <p>This project explores the growing trend of vegan, vegetarian, and gluten-free dining in New York City, revealing how these options are distributed across the boroughs and influenced by cultural and demographic factors. Manhattan leads in availability, while Brooklyn and Queens show steady growth, and the Bronx and Staten Island present opportunities for expansion. Popular cuisines like Italian and Mexican dominate the vegan dining scene, reflecting the city’s rich cultural diversity.<br>Using interactive visualizations, we connected health-conscious dining trends with demographics and exercise habits over time. The insights highlight a shift toward healthier lifestyles and offer guidance for restaurateurs and policymakers to expand sustainable dining options across NYC.</p>
+					        <p>This project investigates the evolving landscape of vegan, vegetarian, and gluten-free dining in New York City by analyzing restaurant data alongside demographic, economic, lifestyle and cultural trends. Using interactive data visualization techniques to study and uncover key insights about the distribution of health-conscious dining options across NYC's boroughs. Manhattan emerges as a hotspot for vegan dining, with Brooklyn and Queens showing promising growth. In contrast, the Bronx and Staten Island reveal gaps in the availability of these dining options, pointing to opportunities for expansion. Popular cuisines such as Italian, Mexican, and American dominate the vegan dining scene, reflecting diverse cultural preferences and culinary influences.
+
+Additionally, this analysis examines correlations between demographic factors, such as ethnicity and population size, and the prevalence of vegan restaurants. The inclusion of exercise trends over two decades further contextualizes the rise of health-conscious dining as part of broader lifestyle shifts. Through dynamic visualizations, including heatmaps, treemaps, and trend lines, this study provides actionable insights for policymakers, restaurateurs, and urban planners to foster inclusive and sustainable dining ecosystems. These findings underscore the importance of data-driven decision-making in shaping the future of NYC's food culture.</p>
 					        <ul class="actions stacked" style="display: inline-block;">
 					        </ul>
 					    </div>
@@ -184,23 +186,23 @@
 					    <h2 style="color: #000000;">What We Learned...</h2>
 					    <div style="max-width: 800px; margin: 0 auto; line-height: 1.8; font-family: Arial, sans-serif; text-align: center; color: #333;">
 					        <p style="margin-bottom: 20px;">
-					            Through this project, we focused on crafting clear and meaningful visualizations that effectively communicate the data's story. Here's how we achieved this:
+					            Through this project, our team focused on crafting clear and meaningful visualizations that effectively communicate the data's story. Here's how we collectively achieved this:
 					        </p>
 					        <ul style="list-style-type: none; padding: 0; text-align: left; display: inline-block; margin: 0;">
 					            <li style="margin-bottom: 20px; padding: 15px; background: #FAF9F1; border-left: 5px solid #C1DAA1 ; border-radius: 5px;">
-					                <strong style="color: #2c3e50;">Simplified Visuals:</strong> I applied the data-ink ratio concept by keeping charts clean and focusing on the essential information, avoiding unnecessary design clutter.
+					                <strong style="color: #2c3e50;">Simplified Visuals:</strong> We applied the data-ink ratio concept by keeping charts clean and focusing on the essential information, avoiding unnecessary design clutter.
 					            </li>
 					            <li style="margin-bottom: 20px; padding: 15px; background: #FAF9F1; border-left: 5px solid #C1DAA1 ; border-radius: 5px;">
-					                <strong style="color: #2c3e50;">Intuitive Grouping:</strong> Gestalt principles like proximity and similarity helped me create visual groupings, such as linking demographics and boroughs in the sunburst chart.
+					                <strong style="color: #2c3e50;">Intuitive Grouping:</strong> Using Gestalt principles like proximity and similarity, we created visual groupings, such as linking demographics and boroughs in the sunburst chart, to enhance interpretability.
 					            </li>
 					            <li style="margin-bottom: 20px; padding: 15px; background: #FAF9F1; border-left: 5px solid #C1DAA1 ; border-radius: 5px;">
-					                <strong style="color: #2c3e50;">Accessible Colors:</strong> I used colorblind-friendly palettes to ensure the visualizations were easy to interpret for all viewers.
+					                <strong style="color: #2c3e50;">Accessible Colors:</strong> We ensured the visualizations were inclusive by utilizing colorblind-friendly palettes, making them easy to interpret for all viewers.
 					            </li>
 					            <li style="margin-bottom: 20px; padding: 15px; background: #FAF9F1; border-left: 5px solid #C1DAA1 ; border-radius: 5px;">
-					                <strong style="color: #2c3e50;">Clear and Honest Design:</strong> I followed visualization maxims to compare data meaningfully, keep visuals simple, and highlight key insights without distorting the message.
+					                <strong style="color: #2c3e50;">Clear and Honest Design:</strong> We adhered to visualization maxims to compare data meaningfully, keep visuals simple, and highlight key insights without distorting the message.
 					            </li>
 					            <li style="margin-bottom: 20px; padding: 15px; background:#FAF9F1; border-left: 5px solid #C1DAA1 ; border-radius: 5px;">
-					                <strong style="color: #2c3e50;">Thoughtful Encodings:</strong> I chose visual elements like bar lengths for precise comparisons and areas or angles for broader overviews, ensuring the data matched the most intuitive representation.
+					                <strong style="color: #2c3e50;">Thoughtful Encodings:</strong> Our team carefully selected visual elements, such as bar lengths for precise comparisons and areas or angles for broader overviews, ensuring the data was represented in the most intuitive and impactful way.
 					            </li>
 					        </ul>
 					    </div>
@@ -215,15 +217,21 @@
 							<li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
 							    onmouseover="this.style.borderColor='#FFA07A';" 
 							    onmouseout="this.style.borderColor='#C1DAA1';">
-							    <strong>Data Scraping:</strong> Removed duplicates from restaurant datasets
+							    <strong>Data Scraping:</strong> Scraped current restaurants and gym data using yelp API
 							</li>
-					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1;">
+					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
 					                    <strong>Data Cleaning:</strong> Removed duplicates from restaurant datasets
 					                </li>
-					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1;">
+					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
 					                    <strong>Standardization:</strong> Normalized borough names and cuisine categories
 					                </li>
-					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1;">
+					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
 					                    <strong>Integration:</strong> Merged demographic data with restaurant locations
 					                </li>
 					            </ul>
@@ -232,13 +240,24 @@
 					        <!-- Right Panel -->
 					        <div style="width: 45%; padding: 20px;">
 					            <ul style="list-style: none; padding: 0;">
-					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1;">
+					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
 					                    <strong>Visualization:</strong> Created interactive charts using Python libraries
 					                </li>
-					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1;">
+					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
 					                    <strong>Analysis:</strong> Generated insights from borough-wise distribution
 					                </li>
-					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1;">
+							<li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
+					                    <strong>Visualization Techniques used:</strong>Choropleth map, Treemap, Scatter plot, Line chart, Worcloud, Bubble chart, Bar chart, Interactive maps, Sunburst chart, Radial chart
+					                </li>
+					                <li style="margin-bottom: 10px; padding: 10px; background: #FAF9F1; border-left: 5px solid #C1DAA1; transition: border-color 0.3s ease;"
+							    onmouseover="this.style.borderColor='#FFA07A';" 
+							    onmouseout="this.style.borderColor='#C1DAA1';">
 					                    <strong>Presentation:</strong> Developed clear visual hierarchy for data story
 					                </li>
 					            </ul>
